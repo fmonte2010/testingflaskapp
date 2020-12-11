@@ -5,8 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello World!'
-
+    return 'Esta es una prueba de como se hace deploy de una app Llask en Heroku'
 
 if __name__ == '__main__':
     app.run()
